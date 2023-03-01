@@ -1,0 +1,47 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhada</title>
+    <link rel="stylesheet" href="./new.min.css">
+    <link rel="stylesheet" href="./inter.min.css">
+    <link rel="stylesheet" href="./princess.css">
+</head>
+
+<body>
+    <header>
+        <h1>Stage App Stream</h1>
+        <p>Unofficial Stage App Client</p>
+    </header>
+    <iframe style="width:100%; height: 50%; border:2px solid #222222;" id="video" src=""></iframe>
+    <hr>
+    <h2>Akhada</h2>
+    <center>
+    Server 1:
+        <button onclick="stream('https://dood.yt/e/8zdg46pyi4aei18rh4tebcysodpalr4e')">Episode 1</button>
+        <button onclick="stream('https://dood.yt/e/1ss67rm63tq9wyq706xa5b0196ygyabv')">Episode 2</button>
+        <button onclick="stream('https://dood.yt/e/5mwtauqs8ndl7nu08nug61ay4gklg0zn')">Episode 3</button>
+        <button onclick="stream('https://dood.yt/e/as1jb39ffutvingg99jkqrmpoaydrc4e')">Episode 4</button>
+        <button onclick="stream('https://dood.yt/e/4two5egtyjvmp55hf6wbyvrq6ucf8p4f')">Episode 5</button>
+        <button onclick="stream('https://dood.yt/e/uk6kha1omzrtjupuq9wks9plnyips44x')">Episode 6</button>
+    </center>
+    <hr>
+    <center>
+    Server 2:
+        <button onclick="stream('https://streamtape.com/e/OxYd9M989jh1bA')">Episode 1</button>
+        <button onclick="stream('https://streamtape.com/e/Pk6xegvLXWT0dY6')">Episode 2</button>
+        <button onclick="stream('https://streamtape.com/e/XYezd1DX1euZX4')">Episode 3</button>
+        <button onclick="stream('https://streamtape.com/e/XjVqa3BZR1uWqW')">Episode 4</button>
+        <button onclick="stream('https://streamtape.com/e/aZgKP1PMpKIxBPA')">Episode 5</button>
+        <button onclick="stream('https://streamtape.com/e/Rp0DmyeY49cdRx1')">Episode 6</button>
+    </center>
+<script type="text/javascript">
+    function stream(url)
+    {
+        document.getElementById("video").src = url;
+    }
+</script>
+</body>
+</html>
